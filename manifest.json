@@ -19,7 +19,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "DarkSearch",
-      "keyword": "@darksearch"."@ds","@searxng, @searx, @sx",
+      "keyword": "@darksearch","@ds","@searxng, @searx, @sx",
       "search_url": "https://search.ack7.com/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
       "suggest_url": "https://search.ack7.com/autocompleter?q={searchTerms}",
