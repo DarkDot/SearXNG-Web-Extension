@@ -53,3 +53,12 @@ If you want use **SearXNG** as support to main search engine do this:
 [**Rodion Borisov**](https://github.com/vintprox) - found `"suggestion_url"` and etc.  
 
 [**Ivan Muzyka**](https://github.com/SeryiBaran) - found icons and etc.
+
+
+# To create extension
+```
+choco install nodejs -y
+npm install --global web-ext
+web-ext.cmd build
+web-ext.cmd sign --api-key $env:FIREFOX_ADDONS_WEB_EXT_API_KEY --api-secret $env:FIREFOX_ADDONS_WEB_EXT_API_SECRET --channel=unlisted
+```
