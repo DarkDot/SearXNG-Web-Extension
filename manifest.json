@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
   "name": "SearXNG — Privacy Search Engine",
-  "version": "1.5",
-  "author": "Erghel",
+  "version": "1.6",
+  "author": "DarkeDot",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
     "48": "searxng48.webp"
   },
   "browser_action": {
-    "default_title": "SearXNG"
+    "default_title": "DarkSearch"
   },
   "browser_specific_settings": {
     "gecko": {
@@ -18,8 +18,8 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "SearXNG",
-      "keyword": "@searxng, @searx, @sx",
+      "name": "DarkSearch",
+      "keyword": "@darksearch"."@ds","@searxng, @searx, @sx",
       "search_url": "https://search.ack7.com/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
       "suggest_url": "https://search.ack7.com/autocompleter?q={searchTerms}",
