@@ -1,4 +1,4 @@
-# SearXNG-Web-Extension (Unofficial)
+# SearXNG-Web-Extension for search.ack7.com (Unofficial)
 [<img src="./firefox-add-ons.png" title="Firefox Add-ons" width="auto" height="47" />](https://addons.mozilla.org/en-US/firefox/addon/searxng-search) <p><a href=""><img src="https://img.shields.io/amo/users/searxng-search?style=flat-square" alt="Badge" /></a></p>
 
 # SearXNG
@@ -32,7 +32,7 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "https://searx.be/search?q={searchTerms}"
+      "search_url": "https://search.ack7.com/search?q={searchTerms}"
     }
   }
 }
